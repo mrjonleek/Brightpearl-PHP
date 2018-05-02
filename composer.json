@@ -1,0 +1,36 @@
+{
+    "name": "thegenielab/brightpearl",
+    "type": "library",
+    "license": "MIT",
+    "description": "Brightpearl API PHP Guzzle Wrapper",
+    "homepage": "http://www.thegenielab.com",
+    "authors": [
+        {
+            "name": "Chase Vecchio",
+            "email": "chase@thegenielab.com"
+        },
+        {
+            "name": "James Pudney",
+            "email": "james@thegenielab.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~4.2"
+    },
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "~5.0",
+        "guzzlehttp/guzzle-services": "~0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brightpearl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brightpearl\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
